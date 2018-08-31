@@ -1,0 +1,11 @@
+php artisan make:migration create_motivo_contacto_table --create=motivo_contacto
+php artisan make:migration create_contacto_table --create=contacto
+php artisan migrate
+php artisan migrate:refresh
+php artisan migrate:rollback
+php artisan make:model MotivoContacto
+php artisan make:model Contacto
+php artisan make:controller ContactoController
+php artisan make:seeder MotivoContactoTableSeeder
+php artisan db:seed --class=RegistroMovimientoTableSeeder
+composer dump-autoload

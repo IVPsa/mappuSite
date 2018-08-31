@@ -1,0 +1,518 @@
+html {
+  height: auto;
+  width: auto;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E5E7E9;
+}
+
+input::placeholder, textarea::placeholder {
+  color: black;
+}
+
+/* INCIO ANIMACION LATIDO BOTON MAPPU */
+#latido{
+  animation:1.5s latido infinite;
+  color:white;
+  font-size:40px;
+  margin:0 auto;
+  text-align:center;
+}
+
+@keyframes latido{
+  0%{transform:scale(1)}
+  50%{transform:scale(1)}
+  55%{transform:scale(.9)}
+  60%{transform:scale(1.1)}
+  65%{transform:scale(.9)}
+  70%{transform:scale(1)}
+}
+
+#cargando {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: grey;
+}
+
+#cargando img {
+  margin-top: 225px;
+}
+/* FINAL ANIMACION LATIDO BOTON MAPPU */
+
+.error-mensaje {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  z-index: 1;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 10px;
+}
+
+a {
+  color: #eeecf1;
+}
+
+a:hover {
+  color: #fff;
+}
+#cajas{
+  border-style:solid;
+  border-radius:20px; 
+  border-color:white;
+  padding: 10px 10px 10px 10px;
+  margin-left: 10px;
+}
+
+#servicios-modal {
+  margin-top: 60px;
+}
+
+#textoParrafos{
+  color:#FFFFFF;
+}
+
+.verMas {
+  outline: none;
+  display: inherit;
+  color: #fff;
+  padding: .9em 4em;
+  font-size: 1em;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  margin: 0 auto;
+  border: none;
+  background: #F29122;
+  border-bottom: dotted 1px #fff;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.verMas:hover{
+  background: none;
+  background: #000000 ;
+}
+
+#header-container {
+  background-color: #000000;
+  color: #F29122;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 1;
+}
+
+#header-container .container {
+  max-width: 1240px;
+}
+
+#header-container .col-xs-1 {
+  padding-right: 60px;
+}
+
+#logo-mappu {
+  margin-left: -120px;
+}
+
+#boton-mappu,
+#mappu-movil {
+  height: 49px;
+  width: 49px;
+  border: 0;
+  outline: 0;
+}
+
+#menu-container {
+  background-color: #006D7D;
+  margin-top: 35px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+#menu-container .nav-container .nav {
+  display: inline-block;
+  margin-bottom: -6px;
+}
+
+#menu-escritorio {
+  position: fixed;
+  left: 10;
+  width: 295px;
+  height: auto;
+  margin-top: 60px;
+  background-color: #000000;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+}
+
+#menu-grande .nav-item {
+  margin: 4px;
+}
+
+#menu-grande i {
+  margin-right: 20px;
+}
+
+#menu-grande .nav-link .a {
+  color: white;
+}
+
+#vermas-servicios {
+  position: fixed;  
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#escritorio-iconos {
+  position: inherit;
+  width: 100%;
+  height: auto;
+  margin: 40px;
+  background-size: auto;
+  font-size: 17px;
+  z-index: 1;
+}
+
+#escritorio-iconos .img-thumbnail{
+  border-radius: 20px;
+  width: 120px;
+  height: 120px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.nav-link .a:hover {
+  color: white;
+}
+
+.btn-buscar {
+ background-color: #F29122;
+ color: white;
+}
+
+#search-bar {
+  padding: 1em;
+}
+
+#info-container h4 {
+  text-align: center;
+}
+
+#carousel-container {
+  background-image: url(../images/valle-1.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  margin-top: 40px;
+}
+
+#carousel-container .left.carousel-control,
+.right.carousel-control{
+  display: none;
+}
+
+#productsCarousel {
+  margin-bottom:  26px;
+}
+#productsCarousel img {
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  z-index: -1;
+}
+
+#productsCarousel .carousel-item .redes-sociales .carousel-caption {
+  margin-top: 4%;
+}
+
+#productsCarousel .redes-sociales {
+  padding-top: 8.4%;
+}
+
+#productsCarousel .carousel-indicators {
+  margin-bottom: -20px;
+}
+
+#productsCarousel p {
+  margin-bottom: -20px;
+}
+
+#productsCarousel .contacto-carousel {
+  padding-top: 9.8%;
+}
+
+#productsCarousel .contacto-carousel #mappu-svg-carousel {
+  width: 8%;
+  height: 19%;
+}
+
+#escritorio-page {
+  background-image: url(../images/valle-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 19px;
+}
+
+#escritorio-page .img-thumbnail{
+  border-radius: 20px;
+  width: 70px;
+  height: 70px;
+  margin-top: 67px;
+  margin: 30px;
+}
+
+#iconos-container {
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-left: 45px;
+}
+
+#iconos-container p {
+  margin-top: -25px;
+}
+
+.jumbotron h1 {
+  color:  #F29122;
+  text-align: center;
+}
+
+.jumbotron h3 {
+  border-bottom: solid 3px #017989;
+  font-size: 22px;
+}
+
+.jumbotron .thumbnail {
+  border: solid 3px #017989;
+  border-radius: 20px;
+  height: auto;
+}
+
+.jumbotron .titulos {
+  padding-top: 5px;
+}
+
+.jumbotron h3 {
+  color: #017989;
+}
+
+.jumbotron .titulos .col-sm-6 {
+  padding: 15px;
+}
+
+.jumbotron .asesoria-bottom .col-sm-6 {
+  padding: 15px;
+}
+
+.jumbotron p {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#servicios-jumbotron {
+  background-color: #E5E7E9;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+#servicios-jumbotron .contactanos {
+  background-color: #017989;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#servicios-jumbotron .contactanos button{
+  background-color: #F29122;
+  color: white;
+  width: auto;
+}
+
+#servicios-jumbotron .contactanos a{
+  background-color: #F29122;
+  color: white;
+  width: auto;
+}
+
+#servicios-jumbotron .publicidad {
+  background-color: #F29122;
+  padding: 60px;
+  margin: auto;
+  color: white;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+#servicios-jumbotron .asesoria-bottom {
+  margin-top: 30px;
+}
+
+#servicios-jumbotron .asesoria-bottom .col-sm-6 .thumbnail h3 {
+  background-color: #017989;
+}
+
+#appsmappu-container .nav-fill {
+  background-color: #017989;
+}
+
+#appsmappu-container .nav-item {
+  background-color: #017989;
+  width: 49.8%;
+  font-size: 20px;
+}
+
+#appsmappu-container .nav-item .active {
+  background-color: #F29122;
+  font-size: 20px;
+}
+
+#appsmappu-container .ideas {
+  background-color: #F29122;
+  padding: 10px;
+}
+
+#appsmappu-container .ideas h4{
+  color: white;
+}
+
+#tab-apps-mappu img {
+ height: 200px;
+ width: 300px;
+}
+
+/* INICIO FOOTER */
+#footer-container {
+  background-color: #000000;
+  color: white;
+  padding: 0.45em 0;
+}
+
+#footer-container .container{
+  max-width: 1200px;
+}
+
+#footer-container p{
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: 13px;
+}
+
+#breadcrumbs-container .breadcrumb {
+  background-color: white;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+  color: #1c3643;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+  color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+
+#productos-container {
+  margin-bottom: 3em;
+}
+
+#productos-container .list-group-item-action.active {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group {
+  margin-top: 1em;
+}
+
+.pagination-container {
+  margin-bottom: 0 !important;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+.page-link, .page-link:focus, .page-link:hover {
+  color: #8ab542;
+}
+
+#rightMenu {
+  width:70px;
+  height: auto;
+  position: fixed;
+  background: #017989;
+  right: 0;
+  margin-right: 15px;
+  margin-top: 190px;
+  z-index: 1;
+}
+
+
+
+/*INICIO CLASES APP A LA MEDIDA*/
+.cuadroContacto{
+  background-color:#006599;
+  height:80px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:15px;
+}
+
+.separador{
+  width: auto;
+  height: 10px;
+  background-color:#006599;
+}
+.textoNombres{
+  color:gray;
+
+}
+.textoNombres:hover{
+  color:#F29122;
+}
+#escalGrises{
+
+  filter: grayscale(100%);
+}
+
+#escalGrises:hover{
+
+  filter: none;
+}
+/*FIN CLASES APP A LA MEDIDA*/
+
+
+/*INICIO MODAL LAYOUT APP A LA MEDIDA*/
+.cuadrosClienteModal{
+  background-color:white;
+  width:auto;
+  height:48px;
+  margin:15px 15px 15px 15px;
+}
+/* FIN MODAL LAYOUT APP A LA MEDIDA*/
+
+.modal-dialog {
+  padding-top: 37px;
+}
