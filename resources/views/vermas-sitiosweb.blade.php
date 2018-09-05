@@ -5,13 +5,13 @@
 
 	<div class="container">
 		<h1><b>Desarrollo de sitio web</b></h1> <br>
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
 				<img class="img-fluid" src="images/AppsAla Medida.jpg" />
 			</div>
 
-			<div class="col-md-6 col-xs-12">
+			<div class="col-md-12 col-xs-12">
 				<div style="margin:15px 15px 15px 15px;">
 					<h3>¿Qué es un sitio web?</h3>
 					<p class="text-justify">
@@ -27,18 +27,16 @@
 							<li><b>Presencia en internet:</b> como mencionábamos anteriormente, gran porcentaje de tus potenciales clientes tiene acceso a internet, y lo utilizara al momento de buscar Cómo suplir una necesidad. Además, el portal web, es la carta de presentación de tu empresa, permitiéndote competir y promocionar tu marca, sin importar el tamaño de tu negocio.</li>
 							<li><b>Atención 24/7: </b>una gran ventaja del sitio web, es que te permite tener una vitrina abierta a tus clientes, sin importar el día o a la hora en que estos realicen sus búsquedas.</li>
 							<li><b>Rompe las barreras geográficas:</b> tu sitio web es la bandera de tu marca, que puede ser vista por tu cliente objetivo, sin importar la ciudad o región en la que ambos se encuentren.</li>
+							<li><b>Publicidad al alcance de tu bolsillo:</b> los canales de búsqueda han cambiado gracias al internet, lo que antes se promocionaba en radio, periódico o televisión, hoy también se hace a través medios sociales digitales (Facebook, twitter, etc) y buscadores de internet (google, yahoo, etc.) en los cuales puedes publicar tus ofertas a muy bajo costo o simplemente gratis.</li>
+							<li><b>Fideliza a tus clientes:</b> con tanta competencia entregando el mismo producto, los consumidores ya no se dejan llevar directamente por el precio, sino por su valor agregado, lo que para ellos es importante y que hace que se identifiquen con la marca. Tu sitio web es la herramienta perfecta para desarrollar una estrategia de contenido que enamore a tus clientes.</li>
 						</ul>
 					</p>
 				</div>
 
 			</div>
 
-			<div class="col-md-6 col-xs-12">
-				<br><br><br>
-				<ul>
-					<li><b>Publicidad al alcance de tu bolsillo:</b> los canales de búsqueda han cambiado gracias al internet, lo que antes se promocionaba en radio, periódico o televisión, hoy también se hace a través medios sociales digitales (Facebook, twitter, etc) y buscadores de internet (google, yahoo, etc.) en los cuales puedes publicar tus ofertas a muy bajo costo o simplemente gratis.</li>
-					<li><b>Fideliza a tus clientes:</b> con tanta competencia entregando el mismo producto, los consumidores ya no se dejan llevar directamente por el precio, sino por su valor agregado, lo que para ellos es importante y que hace que se identifiquen con la marca. Tu sitio web es la herramienta perfecta para desarrollar una estrategia de contenido que enamore a tus clientes.</li>
-				</ul>
+			<div class="col-md-12 col-xs-12">
+
 				<div style="margin:15px 15px 15px 15px ;">
 					<h3>Descripción del servicio</h3>
 					<p class="text-justify">
@@ -56,11 +54,11 @@
 		</div>
 
 
-		<div class="publicidad">		
+		<div class="publicidad">
 			<div class="row">
 				<div class="col-md-6">
 					<h4>Tú podrias potenciar tu negocio</h4>
-					<p>Atrévete a innovar con nosotros</p>		
+					<p>Atrévete a innovar con nosotros</p>
 				</div>
 
 				<div class="col-md-6">
@@ -74,17 +72,17 @@
 								<div class="col-md-5">
 									<input type="submit" class="form-control" value="Suscribirme">
 								</div>
-							</div>					
+							</div>
 						</div>
 					</form>
-				</div>				
-			</div>			
+				</div>
+			</div>
 		</div>
 		<br>
 
 		<div class="contactanos" align="right">
 			<a href="{{route('contacto')}}"><button type="button" class="form-control">Contáctanos</button></a>
-		</div>		
+		</div>
 	</div>
 </div>
 

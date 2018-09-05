@@ -23,7 +23,7 @@
 							Ver más
 						</button></a>
 					</div>
-				</div>				
+				</div>
 			</div>
 
 			<div class="col-sm-6 col-md-4">
@@ -33,12 +33,14 @@
 						<br>
 						<p>Comienza a vender online con tu tienda virtual, nuestro equipo de profesionales te ayudara a crear una potente estrategia comercial, y campañas de lanzamiento para tus productos.
 							<br><br><br><br><br>
-						</p>						
+						</p>
 					</div>
 					<div class="contactanos" align="right">
-						<a href="{{route('tiendas.virtuales')}}"><button class="form-control navbar-toggler">
-							Ver más
-						</button></a>
+						<a href="{{route('tiendas.virtuales')}}">
+							<button class="form-control navbar-toggler">
+								Ver más
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -47,14 +49,16 @@
 					<h3>Desarrollo de Aplicaciones móviles</h3>
 					<div class="caption">
 						<br>
-						<p>Tienes un proyecto en mente, una Apps que potenciara tu negocio, nuestro equipo profesional te espera para desarrollar tu aplicación móvil, nativa en Android o multi-plataforma. 
+						<p>Tienes un proyecto en mente, una Apps que potenciara tu negocio, nuestro equipo profesional te espera para desarrollar tu aplicación móvil, nativa en Android o multi-plataforma.
 							<br><br><br><br>
 						</p>
 					</div>
 					<div class="contactanos" align="right">
-						<button class="form-control navbar-toggler" data-toggle="collapse" data-target="#">
-							Ver más
-						</button>
+						<a href="{{route('vermas.aplicaciones-movil')}}">
+							<button class="form-control navbar-toggler" >
+								Ver más
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -67,14 +71,16 @@
 					<div class="caption">
 						<p>
 							<br>
-							Necesitas una herramienta web que te ayude a organizar, vender, controlar, reportar, administrar o dirigir tu negocio, y que al mismo tiempo que te permita acceder desde tu ordenador, notebook, o dispositivos móviles. 
+							Necesitas una herramienta web que te ayude a organizar, vender, controlar, reportar, administrar o dirigir tu negocio, y que al mismo tiempo que te permita acceder desde tu ordenador, notebook, o dispositivos móviles.
 							<br><br><br>
 						</p>
 					</div>
 					<div class="contactanos" align="right">
-						<button class="form-control navbar-toggler" data-toggle="collapse" data-target="#">
-							Ver más
-						</button>
+						<a href="{{route('vermas.aplicaciones-web')}}">
+							<button class="form-control navbar-toggler" >
+								Ver más
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -86,9 +92,11 @@
 					</div>
 
 					<div class="contactanos" align="right">
-						<button class="form-control navbar-toggler" data-toggle="collapse" data-target="#">
-							Ver más
-						</button>
+						<a href="{{route('vermas.vermas-oficina-movil')}}">
+							<button class="form-control navbar-toggler" >
+								Ver más
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -103,19 +111,21 @@
 						</p>
 					</div>
 					<div class="contactanos" align="right">
-						<button class="form-control navbar-toggler" data-toggle="collapse" data-target="#">
-							Ver más
-						</button>
+						<a href="{{route('vermas.vermas-aplicaciones-mAppu')}}">
+							<button class="form-control navbar-toggler" >
+								Ver más
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<br>
-		<div class="publicidad">		
+		<div class="publicidad">
 			<div class="row">
 				<div class="col-md-6">
 					<h4>Tú podrias potenciar tu negocio</h4>
-					<p>Atrévete a innovar con nosotros</p>		
+					<p>Atrévete a innovar con nosotros</p>
 				</div>
 
 				<div class="col-md-6">
@@ -129,14 +139,14 @@
 								<div class="col-md-5">
 									<input type="submit" class="form-control" value="Suscribirme">
 								</div>
-							</div>					
+							</div>
 						</div>
 					</form>
-				</div>				
-			</div>			
+				</div>
+			</div>
 		</div>
 		<br>
-		
+
 		<div class="contactanos" align="right">
 			<a href="{{route('contacto')}}"><button type="button" class="form-control">Contáctanos</button></a>
 		</div>

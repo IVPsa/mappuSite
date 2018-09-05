@@ -35,6 +35,22 @@ Route::get('sitios-web', function () {
 	return view('vermas-sitiosweb');
 })->name('vermas.web');
 
+Route::get('aplicaciones-moviles', function () {
+	return view('vermas-aplicaciones-moviles');
+})->name('vermas.aplicaciones-movil');
+
+Route::get('aplicaciones-web', function () {
+	return view('vermas-aplicaciones-web');
+})->name('vermas.aplicaciones-web');
+
+Route::get('oficina-movil', function () {
+	return view('vermas-oficina-movil');
+})->name('vermas.vermas-oficina-movil');
+
+Route::get('aplicaciones-mAppu', function () {
+	return view('vermas-aplicaciones-mAppu');
+})->name('vermas.vermas-aplicaciones-mAppu');
+
 Route::get('tiendas-virtuales', function () {
 	return view('tiendas-virtuales');
 })->name('tiendas.virtuales');
@@ -58,7 +74,7 @@ Route::get('/test', function()
 	$beautymail = app()->make(Snowfire\Beautymail\Beautymail::class);
 	$beautymail->send('emails.welcome', [], function($message)
 	{
-		$message			
+		$message
 		->from('hola@mappu.cl')
 		->to('riquelme.nan@gmail.com')
 		->to('hola@mappu.cl')
