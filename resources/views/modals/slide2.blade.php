@@ -1,9 +1,9 @@
 <!-- Modal -->
 <div class="modal fade" id="slide2" role="dialog">
-  <div class="modal-dialog modal-lg" >
-    <div class="modal-content"style="background-color:#017989;">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content"style="background-color:#017989; ">
 
-      <div class="modal-body">
+      <div class="modal-body" >
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <div class="row">
           <div class="col-md-4">
@@ -69,11 +69,11 @@
                 <br> <br>
               </p>
             </div>
-          </div>          
+          </div>
 
         </div>
 
-        
+
       </div>
 
     </div>

@@ -48,7 +48,7 @@ Route::get('oficina-movil', function () {
 })->name('vermas.vermas-oficina-movil');
 
 Route::get('aplicaciones-mAppu', function () {
-	return view('vermas-aplicaciones-mAppu');
+		return view('vermas-aplicaciones-mappu');
 })->name('vermas.vermas-aplicaciones-mAppu');
 
 Route::get('tiendas-virtuales', function () {

@@ -178,17 +178,19 @@
   <div id="footer-container">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <h6>CONTACTENOS</h6>
-          <div style="height:3px; background-color:#ff9900;"></div>
-          <br>
-          <p>TELEFONO: +56 9 8331825</p>
-          <a href="{{route('contacto')}}">
-            <p>EMAIL: hola@mappu.cl</p></a>
+
+
+          <div class="col-md-3">
+            <h6>CONTACTENOS</h6>
+            <div style="height:3px; background-color:#ff9900;"></div>
+            <br>
+            <p>TELEFONO: +56 9 8331825</p>
+            <a href="{{route('contacto')}}">
+              <p>EMAIL: hola@mappu.cl</p></a>
           </div>
 
           <div class="col-md-3">
-            <h6>MAPA DEL SITIO</h6>          
+            <h6>MAPA DEL SITIO</h6>
             <div style="height:3px; background-color:#ff9900;"></div>
             <br>
             <p><a href="{{route('asesoria.smart')}}">Servicios Informáticos mAppu</a>
@@ -217,11 +219,13 @@
             <h6>SOMOS MAPPU</h6>
             <div style="height:3px; background-color:#ff9900;"></div>
             <br>
+            <p>Desarrollando desde la frontera  </p>
             <p>
-              Desarrollando desde la frontera
-              Temuco, Región de La Araucanía              
+              Temuco, Región de La Araucanía
             </p>
+
           </div>
+            
         </div>
       </div>
     </div>
