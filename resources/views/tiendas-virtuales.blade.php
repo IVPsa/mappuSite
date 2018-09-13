@@ -59,9 +59,6 @@
 				<br>
 				<h3>mAppu te ofrece:</h3>
 				<lu>
-					<li>
-						<b>Campañas de lanzamiento online:</b><br /> en conjunto a tu estrategia comercial y a tu plan de contenidos, desarrollamos y ponemos en marcha un plan de lanzamiento para su empresa, con las principales ofertas o promociones, en los diversos canales online.
-					</li>
 					<br>
 					<li>
 						<b>Dominio y hosting:</b><br /> incluimos todo lo necesario para poner tu sitio web en línea y al alcance de tus clientes.
@@ -79,6 +76,10 @@
 						<b>Desarrollo de estrategias de contenido:</b><br /> Fideliza a tus clientes, has que se sientan parte de tu negocio, nuestros profesionales te ayudaran a crear aquel contenido que enamore a tus clientes.
 					</li>
 					<br>
+					<li>
+						<b>Campañas de lanzamiento online:</b><br /> en conjunto a tu estrategia comercial y a tu plan de contenidos, desarrollamos y ponemos en marcha un plan de lanzamiento para su empresa, con las principales ofertas o promociones, en los diversos canales online.
+					</li>
+					<br />
 					<li>
 						<b>Soporte:</b><br /> según nuestro amigo Murphy “Si algo malo puede pasar, pasará” para esos casos cuenta con nosotros, para resolver tus problemas o simplemente para resolver alguna duda.
 					</li>
