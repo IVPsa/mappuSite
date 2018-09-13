@@ -4,7 +4,7 @@
 <div class="jumbotron" id="servicios-jumbotron">
 	<div class="container" id="appsmappu-container">
 		<h1><b>Aplicaciones mAppu</b></h1>
-		<img class="img-fluid" src="images/apps-mappu.jpg" alt="imagen asesoria">
+		<img class="img-fluid" src="images/asesoría-smart.jpg" alt="imagen asesoria">
 
 		<ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
 			<li class="nav-item">
@@ -22,13 +22,13 @@
 				<!--imagen del modal misma y pegar contenido del word dos columnas 1 imagen y otra texto-->
 			</div>
 		</div>
-		
+
 		<br>
-		<div class="publicidad">		
+		<div class="publicidad">
 			<div class="row">
 				<div class="col-md-6">
 					<h4>Tú podrias potenciar tu negocio</h4>
-					<p>Atrévete a innovar con nosotros</p>		
+					<p>Atrévete a innovar con nosotros</p>
 				</div>
 
 				<div class="col-md-6">
@@ -42,17 +42,17 @@
 								<div class="col-md-5">
 									<input type="submit" class="form-control" value="Suscribirme">
 								</div>
-							</div>					
+							</div>
 						</div>
 					</form>
-				</div>				
-			</div>			
+				</div>
+			</div>
 		</div>
 
 		<br>
 		<div class="contactanos" align="right">
 			<a href="{{route('contacto')}}"><button type="button" class="form-control">Contáctanos</button></a>
-		</div>		
+		</div>
 
 
 	</div>

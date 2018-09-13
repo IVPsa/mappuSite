@@ -6,7 +6,7 @@
 	<div class="container">
 		<h1><b>Somos mAppu</b></h1> <br>
 		<!-- Colocar imagen encabezado araucarias y agregar textos del word. agregar menu navegación interna landing page-->
-		<img src="images/valle-1.jpg" class="img-fluid" alt="araucarias">
+		<img src="images/FondomAppu.jpg" class="img-fluid" alt="araucarias">
 		<br>
 
 		<div class="col-sm-12 col-md-12">

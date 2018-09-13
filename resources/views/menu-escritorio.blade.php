@@ -9,7 +9,7 @@
             <ul class="nav navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="{{route('home')}}"><i class="fa fa-home" style="font-size:25px;"></i>Home</a>
-              </li> 
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{route('escritorio')}}"><i class="fa fa-television" style="font-size:25px;"></i>Escritorio</a>
               </li>
@@ -20,7 +20,7 @@
                 <a class="nav-link" href="{{route('apps.medida')}}"><i><img width="20px" height="20px" src="images/boton-mappu-copia.svg"/></i>Desarrollo de Aplicaciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{route('apps.medida')}}"><i class="material-icons" style="font-size:25px;">phone_android</i>Aplicaciones mAppu</a>
+                <a class="nav-link" href="{{route('vermas.vermas-aplicaciones-mAppu')}}"><i class="material-icons" style="font-size:25px;">phone_android</i>Aplicaciones mAppu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{route('somos.mappu')}}"><i class="fa fa-question" style="font-size:25px;" ></i>Somos mAppu</a>

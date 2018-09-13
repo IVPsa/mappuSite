@@ -131,11 +131,11 @@
                   <a class="nav-link" href="{{route('asesoria.smart')}}"><i class="fa fa-cogs" style="font-size:25px;"></i>Servicios Informáticos mAppu</a>
                 </li>
                 <li class="nav-item hidden-sm-up text-xs-center">
-                  <a class="nav-link" href="{{route('apps.mappu')}}"><img  width="20px" height="20px" src="images/boton-mappu-copia.svg" />
+                  <a class="nav-link" href="{{route('apps.medida')}}"><img  width="20px" height="20px" src="images/boton-mappu-copia.svg" />
                   Desarrollo de Aplicaciones móviles</a>
                 </li>
                 <li class="nav-item hidden-sm-up text-xs-center">
-                  <a class="nav-link" href="{{route('apps.medida')}}"><i class="material-icons" style="font-size:25px;">phone_android</i>Aplicaciones mAppu</a>
+                  <a class="nav-link" href="{{route('vermas.vermas-aplicaciones-mAppu')}}"><i class="material-icons" style="font-size:25px;">phone_android</i>Aplicaciones mAppu</a>
                 </li>
                 <li class="nav-item hidden-sm-up text-xs-center">
                   <a class="nav-link" href="{{route('somos.mappu')}}"><i class="fa fa-question" style="font-size:25px;"></i>Somos mAppu</a>
@@ -197,7 +197,7 @@
               <br>
               <a href="{{route('apps.medida')}}">Desarrollo de Aplicaciones móviles</a>
               <br>
-              <a href="{{route('apps.mappu')}}">Aplicaciones mAppu</a>
+              <a href="{{route('vermas.vermas-aplicaciones-mAppu')}}">Aplicaciones mAppu</a>
               <br>
               <a href="{{route('somos.mappu')}}">Somos mAppu</a>
               <br>
@@ -225,7 +225,7 @@
             </p>
 
           </div>
-            
+
         </div>
       </div>
     </div>

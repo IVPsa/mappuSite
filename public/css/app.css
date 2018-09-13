@@ -64,7 +64,7 @@ a:hover {
 }
 #cajas{
   border-style:solid;
-  border-radius:20px; 
+  border-radius:20px;
   border-color:white;
   padding: 10px 10px 10px 10px;
   margin-left: 10px;
@@ -173,7 +173,7 @@ a:hover {
 }
 
 #vermas-servicios {
-  position: fixed;  
+  position: fixed;
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -404,6 +404,7 @@ a:hover {
   background-color: #000000;
   color: white;
   padding: 0.45em 0;
+  min-height: 280px;
 }
 
 #footer-container .container{
